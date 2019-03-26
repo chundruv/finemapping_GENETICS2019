@@ -24,4 +24,4 @@ This repository contains a pipeline to run the three Fine-mapping approaches (BI
   - output/foo.bimbam.credsets is the credible set from BIMBAM
   - output/foo.bslmm.credsets is the credible set from the BSLMM
   
-# Please feel free to contact me if you have any questions
+Please feel free to contact me if you have any questions
