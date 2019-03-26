@@ -6,8 +6,8 @@ This repository contains a pipeline to run the three Fine-mapping approaches (BI
 
  - BIMBAM: http://www.haplotype.org/bimbam.html
  - GEMMA: https://github.com/genetics-statistics/GEMMA
-  - gsl
-  - lapack
+   - gsl
+   - lapack
  - GCTA: http://cnsgenomics.com/software/gcta/index.html
  - R
  - python3
