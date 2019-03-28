@@ -5,7 +5,7 @@ import numpy as np
 
 out=sys.argv[1]
 
-x=pd.read_csv(out+'.single.txt', skiprows=1, sep=r'\s+', error_bad_lines=False)
+x=pd.read_csv('output/'+out+'.single.txt', skiprows=1, sep=r'\s+', error_bad_lines=False)
 
 x['bf10']=np.float128(10)**x['bf']
 x=x.sort_values('bf10', ascending=False)
@@ -22,4 +22,4 @@ for i in range(1,(len(x)+1)):
         cred=x[x['bf10']>=x['bf10'].tolist()[i-1]]
         break
 
-cred.to_csv(out+'.bimbam.credsets', header=False, index=False, sep=' ')
+cred.to_csv('output/'+out+'.bimbam.credsets', header=False, index=False, sep=' ')
